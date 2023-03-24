@@ -1,0 +1,805 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0a192f;
+}
+nav{
+    background-color: #0a192f;
+    color: white;
+    display: flex;
+    height: 6.5vh;
+    width: 100%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+nav i{
+    margin-top: 1%;
+    padding-left: 10px;
+}
+
+nav .flex{
+    display: flex;
+    /* list-style: none; */
+    /* justify-content: space-evenly; */
+    gap: 105px;
+    width: 70%;
+    margin-left: 50%;
+    margin-top: 1%;
+    /* */   
+}
+nav .flex a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.details{
+    margin-top: 6%;
+    width: 60%;
+}
+.details h3{
+    color: skyblue;
+    font-size: large;
+    margin-left: 15%;
+}
+.details h1{
+    color:  #ccd6f6;
+    font-size: xxx-large;
+    margin-left: 15%;
+    margin-top: 1%;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details #name {
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details p{
+    margin-left: 15%;
+    color:  #697291;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
+hr{
+    width: 100%;
+    color: 1px solid #0a192f;
+}
+.about{
+    display: flex;
+    width: 100%;
+}
+.about .para h2{
+    color:  #0e7eb3;
+    font-size: xx-large;
+    text-align: center;
+    /* padding-left: 50px; */
+    margin-top: 3%;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.5px;
+}
+.about .para{
+    width: 100%;
+}
+.about .para h2{
+    margin-bottom: 3%;
+}
+.about p{
+    color: #ccd6f6;
+    width: 85%;
+    text-align: justify;
+}
+.about #para1{
+    padding: 10px;
+}
+.about #para2{
+    padding: 10px;
+}
+.about .img{
+    width: 10%;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.about .img img{
+    /* color: black; */
+    width: 100%;
+    height: 25vh;
+}
+.courses{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.courses p{
+    color: #8798d4;
+    margin-top: 2%;
+}
+.courses ol{
+    list-style-type: circle;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.courses ol li{
+    color: #ccd6f6;
+}
+.skills{
+    background-color: white;
+}
+.skills .para h2{
+    color: #0e7eb3;
+    font-size: xx-large;
+    /* padding-left: 50px; */
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+.skills .icon i{
+    font-size: 200px;
+}
+.skills .icon #ione{
+    display: flex;   
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.skills .icon #itwo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.skills .icon #ithree{
+    text-align: center;
+}
+.skills .para h2:visited{
+    background-color: blue;
+}
+.project{
+    margin-bottom: 4%;
+}
+.project h2{
+    color: #0e7eb3;
+    font-size: xx-large;
+    margin-top: 3%;
+    /* padding-left: 50px; */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+.card .card1 .cardimg{
+    text-align: center;
+    display: flex;
+    margin-left: 15%;
+    padding-top: 5%;
+    margin-bottom: 0%;
+}
+.card .card1 .cardimg img{
+    height: 30vh;
+    width: 35%;
+    transition: 0.5s;
+}
+.card .card1 .cardimg img:hover{
+    transform: scale(1.02);
+    box-shadow: #130d0d;
+}
+.card .card1 .cardimg .details{
+    width: 45%;
+    height: 30vh;
+    background-color: black;
+    margin-left: 3%;
+    margin-top: 0%;
+}
+.card .card1 .cardimg .details h3{
+    margin-top: 4%;
+    margin-left: 0%;
+    color: #0054ff;
+    line-height: 1.1;
+}
+.card .card1 .cardimg .details p{
+    margin-top: 3%;
+    margin-left: 0%;
+    width: 98%;
+    color: skyblue;
+    margin-bottom: 5%;
+}
+.card .card1 .cardimg .details button{
+    margin-top: 0%;
+    font-weight: bold;
+    background-color: #09b993;
+    padding: 8px 25px;
+    text-decoration: none;
+    border: none;
+}
+.card .card1 .cardimg .details button a{
+    text-decoration: none;
+}
+.card .card1 .cardimg .details button h3{
+    transition: 0.7;
+    color: rgb(24, 22, 22);
+}
+.card .card1 .cardimg .details button h4:hover{
+    transform: scale(1.05);
+}
+.connect{
+    margin-bottom: 5%;
+}
+.connect h2{
+    color: #0e7eb3;
+    font-size: xx-large;
+    margin-top: 4%;
+    /* padding-left: 50px; */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+.connect .contactme{
+    margin-top: 3%;
+}
+.connect .contactme h1{
+    color: #ccd6f6;
+    text-align: center;
+}
+.connect .contactme p{
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    /* font-size: ; */
+}
+.connect .flex .detail{
+    display: flex;
+    margin-left: 6%;
+    gap: 25px;
+    text-align: center;
+    margin-top: 3.5%;
+}
+.connect .flex .detail i{
+    color: white;
+    font-size: larger;
+    padding-top: 3px;
+}
+.connect .flex .detail h2{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    margin-top: 0%; 
+    margin-left: 0%;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.connect .flex .d{
+    margin-top: 8%;
+    width: 50%;
+}
+.connect .socialmedia {
+    color: whitesmoke;
+    margin-top: 7%;
+    width: 50%;
+}
+.connect .socialmedia h2{
+    text-align: center;
+    text-decoration: none;
+}
+.connect .flex{
+    display: flex;
+    width: 100%;
+}
+.connect .socialmedia .icon{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+.connect .socialmedia .icon i{
+    font-size: x-large;
+    letter-spacing: 10px;
+}
+.connect .socialmedia .contact {
+    margin-top: 5%;
+    text-align: center;
+}
+.connect .socialmedia .contact button{
+    padding: 10px;
+    width: 30%;
+    background-color: skyblue;
+}
+.connect .socialmedia .contact button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media(max-width:1050px){
+    nav .flex{
+        gap: 95px;
+    }
+}
+
+@media(max-width:1000px){
+    nav .flex{
+        gap: 90px;
+        margin-left: 45%;
+    }
+}
+
+@media(max-width:950px){
+    .details{
+        width: 65%;
+    }
+}
+
+@media(max-width:900px){
+    nav .flex{
+        gap: 90px;
+    }
+    .connect .flex{
+        flex-direction: column;
+    }
+    .connect .flex .d{
+        margin-left: 24%;
+    }
+    .socialmedia{
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    nav .flex {
+        gap: 85px;
+        margin-left: 40%;
+    }
+    .details h1 {
+        margin-left: 10%;
+    }
+    .about .img img {
+        /* color: black; */
+        width: 210%;
+        height: 30vh;
+        transform: translateY(100px);
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:800px){
+    nav .flex {
+        gap: 80px;
+        margin-left: 40%;
+    }
+    .details h1 {
+        margin-left: 6%;
+    }
+    .connect h2 {
+        font-size: xx-large;
+    }
+    .connect .flex .detail h2 {
+        font-size: medium;
+    }
+}
+
+@media(max-width:750px){
+    nav .flex {
+        gap: 75px;
+        margin-left: 35%;
+    }
+    .details h1{
+        font-size: xx-large;
+        margin-left: 10%;
+    }
+    .connect .socialmedia{
+        width: 100%;
+    }
+    .connect .socialmedia h2{
+        font-size: larger;
+    }
+}
+
+@media(max-width:700px){
+    nav .flex {
+        gap: 70px;
+        margin-left: 30%;
+    }
+    .details p {
+        margin-bottom: 8%;
+    }
+    .project h2{
+        margin-bottom: 4%;
+    }
+    .card .card1 .cardimg{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .card .card1 .cardimg img {
+        height: 25vh;
+        width: 45%;
+        margin-left: 0%;
+    }
+    .card .card1 .cardimg .details {
+        width: 45%;
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    .connect .socialmedia {
+        width: 100%;
+    }
+}
+
+@media(max-width:650px){
+    nav .flex {
+        gap: 65px;
+        margin-left: 25%;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about p{
+        width: 100%;
+    }
+    .about .img{
+        width: 100%;
+        text-align: center;
+    }
+    .about .img img{
+        transform: translateY(0px);
+        /* margin-left: 250%; */
+        width: 25%;
+        padding-right: 0px;
+    }
+    .skills .icon i {
+        font-size: 175px;
+    }
+    .skills .icon #ione .h1 h3{
+        padding-left: 36px;
+    }
+    .skills .icon #ione .h2 h3{
+        padding-left: 50px;
+    }
+    .skills .icon #itwo .h3 h3{
+        padding-left: 65px;
+    }
+    .skills .icon #itwo .h4 h3{
+        padding-left: 63px;
+    }
+    .skills .icon #ithree .h5 h3{
+        padding-left: 0px;
+    }
+    .connect .contactme p {
+        padding: 5px;
+    }
+    .flex .d {
+        margin-top: 4%;
+    }
+}
+@media(max-width:600px){
+    .about p {
+        width: 100%;
+    }
+    .about .img img {
+        /* margin-left: 400%; */
+        padding-right: 0px;
+        /* width: 230%; */
+        height: 29vh;
+    }
+
+}
+
+@media(max-width:550px){
+    nav .flex {
+        gap: 50px;
+        margin-left: 25%;
+    }
+    .details h1 {
+        font-size: x-large;
+    }
+    .details h3 {
+        font-size: small;
+    }
+    .details p {
+        margin-bottom: 15%;
+        font-size: small;
+    }
+    .about #para1 {
+        font-size: smaller;
+    }
+    .about #para2 {
+        font-size: smaller;
+    }
+    .about .img {
+        margin-right: 0%;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .skills .icon #ione{
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills .icon #itwo{
+        flex-direction: column;
+        text-align: center;
+    }
+    .skills .icon #ione .h1 h3 {
+        padding-left: 10px;
+    }
+    .skills .icon #ione .h2 h3 {
+        padding-left: 0px;
+    }
+    .skills .icon #itwo .h3 h3 {
+        padding-left: 15px;
+    }
+    .skills .icon #itwo .h4 h3 {
+        padding-left: 15px;
+    }
+    .skills .icon i {
+        font-size: 150px;
+    }
+    .skills .icon #ione .h1 h3{
+        padding-bottom: 5%;
+    }
+    .skills .icon #ione .h2 h3{
+        padding-bottom: 5%;
+    }
+    .skills .icon #itwo .h3 h3{
+        padding-bottom: 5%;
+    }
+    .skills .icon #itwo .h4 h3{
+        padding-bottom: 5%;
+    }
+    .skills .icon #ithree .h5 h3{
+        padding-bottom: 3%;
+    }
+    .card .card1 .cardimg img {
+        width: 45%;
+        margin-left: 0%;
+    }
+    .flex .detail h2 {
+        padding-left: 5px;
+    }
+    .socialmedia .icon {
+        margin-top: 6%;
+        padding-left: 9%;
+    }
+    .connect .contactme h1{
+        font-size: larger;
+    }
+}
+
+@media(max-width:500px){
+    nav .flex {
+        gap: 35px;
+    }
+    .about #para1 {
+        font-size: x-small;
+    }
+    .about #para2 {
+        font-size: x-small;
+    }
+    .skills .icon i {
+        font-size: 140px;
+    }
+    .card .card1 .cardimg img {
+        height: 18vh;
+    }
+    .card .card1 .cardimg .details {
+        height: 25vh;
+    }
+    .connect .flex .detail h2{
+        padding-left: 0px;
+    }
+    .connect h2 {
+        font-size: xx-large;
+    }
+    .connect .contactme h1{
+        font-size: medium;
+    }
+    .flex .detail h2{
+        font-size: small;
+    }
+    .connect .flex .socialmedia h2{
+        font-size: medium;
+    }
+    .socialmedia .icon i {
+        font-size: large;
+    }
+    .socialmedia .contact button a {
+        font-size: x-small;
+        font-weight: 600;
+    }
+    .connect .contactme p{
+        font-size: x-small;
+    }
+    .connect .flex .socialmedia h2{
+        padding-left: 0px;
+        margin-top: 2%;
+    }
+}
+@media(max-width:450px){
+    nav .flex {
+        gap: 30px;
+    }
+    .details h3 {
+        font-size: xx-small;
+    }
+    .details h1 {
+        font-size: larger;
+    }
+    .details p {
+        font-size: xx-small;
+    }
+    .about .para h2{
+        font-size: x-large;
+    }
+    .courses p{
+        font-size: small;
+    }
+    .about .img img {
+        height: 22vh;
+    }
+    .skills .para h2{
+        font-size: x-large;
+    }
+    .skills .icon i {
+        font-size: 115px;
+    }
+    .skills .icon #ione .h1 h3 {
+        font-size: small;
+    }
+    .skills .icon #ione .h2 h3{
+        font-size: small;
+    }
+    .skills .icon #itwo .h3 h3{
+        font-size: small;
+    }
+    .skills .icon #itwo .h4 h3{
+        font-size: small;
+    }
+    .skills .icon #ithree .h5 h3{
+        font-size: small;
+    }
+    .project h2{
+        font-size: x-large;
+    }
+    .card .card1 .cardimg img {
+        width: 50%;
+        height: 20vh;
+        margin-left: 0%;
+    }
+    .card .card1 .cardimg .details {
+        height: 18vh;
+        margin-left: 0%;
+        width: 50%;
+    }
+    .connect h2{
+        font-size: x-large;
+    }
+    .connect .flex .detail i {
+        font-size: x-small;
+    }
+    .socialmedia .icon i {
+        font-size: medium;
+    }
+    .connect .flex .d{
+        width: 60%;
+    }
+}
+
+@media(max-width:400px){
+    nav .flex a {
+        font-size: x-small;
+    }
+    .about .img img{
+        height: 18vh;
+        /* width: 220%; */
+    }
+    .skills .icon i {
+        font-size: 90px;
+    }
+    .skills .icon #ione .h1 h3 {
+        font-size: x-small;
+    }
+    .skills .icon #ione .h2 h3{
+        font-size: x-small;
+    }
+    .skills .icon #itwo .h3 h3{
+        font-size: x-small;
+    }
+    .skills .icon #itwo .h4 h3{
+        font-size: x-small;
+    }
+    .skills .icon #ithree .h5 h3{
+        font-size: x-small;
+    }
+    .card .card1 .cardimg .details button{
+        padding: 4px 20px;
+    }
+    .card .card1 .cardimg .details p{
+        font-size: xx-small;
+    }
+    .about .para h2 {
+        font-size: large;
+    }
+    .skills .para h2 {
+        font-size: large;
+    }
+    .project h2 {
+        font-size: large;
+    }
+    .connect h2 {
+        font-size: large;
+    }
+    .card .card1 .cardimg img {
+        width: 50%;
+        height: 16vh;
+        margin-left: 0%;
+    }
+    .connect .flex .detail h2 {
+        font-size: small;
+    }
+    .connect .contactme p {
+        font-size: xx-small;
+    }
+    .connect .socialmedia .icon i {
+        font-size: medium;
+    }
+    
+}
+@media(max-width:350px){
+    .details h1 {
+        font-size: medium;
+    }
+    nav{
+        height: 4.8vh;
+    }
+    nav .flex {
+        gap: 15px;
+        margin-left: 38%;
+    }
+    .courses ol li {
+        font-size: x-small;
+    }
+    .courses ol {
+        margin-left: 25%;
+    }
+    .skills .icon i {
+        font-size: 75px;
+    }
+    .skills .icon #ione .h1 h3 {
+        font-size: xx-small;
+    }
+    .skills .icon #ione .h2 h3{
+        font-size: xx-small;
+    }
+    .skills .icon #itwo .h3 h3{
+        font-size: xx-small;
+    }
+    .skills .icon #itwo .h4 h3{
+        font-size: xx-small;
+    }
+    .skills .icon #ithree .h5 h3{
+        font-size: xx-small;
+    }
+    .flex .detail h2 {
+        padding-left: 0px;
+    }
+    .connect .contactme p{
+        padding: 2px 15px;
+    }
+    .socialmedia .icon i {
+        font-size: small;
+    }
+    .socialmedia .contact button {
+        padding: 5px;
+        width: 32%;
+    }
+    .connect .flex .d {
+        margin-left: 15%;
+    }
+}
